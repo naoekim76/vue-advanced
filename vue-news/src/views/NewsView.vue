@@ -1,6 +1,6 @@
 <template>
   <div>
-    News
+    News Test
   </div>
 </template>
 
