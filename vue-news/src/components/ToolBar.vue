@@ -13,9 +13,11 @@
   display: flex;
   padding: 8px;
 }
+
 .header .router-link-exact-active {
   color: #35495e;
 }
+
 .header a {
   color: white
 }
