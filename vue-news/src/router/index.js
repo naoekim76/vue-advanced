@@ -8,6 +8,7 @@ import ItemView from '../views/ItemView.vue';
 
 Vue.use(VueRouter);
 
+// Router
 const router = new VueRouter({
     mode: 'history',
     routes: [
