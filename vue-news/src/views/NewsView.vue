@@ -13,15 +13,9 @@ export default {
     }
   },
   created() {
-    var vm = this;
     fetchNewsList()
-      .then(function(response) {
-        console.log(response);
-        vm.users = response.data;
-      })
-      .catch(function() {
-
-      })
+      .then(response => this.users = response.data)
+      .catch(error => console.log(error));
   }
 
 }
